@@ -15,8 +15,6 @@ spec:
       containers:
       - name: movies
         image: patricklang/razorpagesmovie:aspnet-2.0.5-nanoserver-1709
-        securityContext: # this is a temporary workaround for clusters that try to add a security context
-          privileged: true
         ports:
         - containerPort: 80
           protocol: TCP
