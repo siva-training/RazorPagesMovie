@@ -19,7 +19,7 @@ spec:
         - containerPort: 80
           protocol: TCP
       nodeSelector:
-        kubernetes.io/os: linux
+        kubernetes.io/os: windows
       schedulerName: default-scheduler
       serviceAccount: default
       serviceAccountName: default
